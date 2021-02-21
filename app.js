@@ -8,7 +8,7 @@ let user = require("./controllers/usercontrollers");
 
 sequelize.sync();
 app.use(require("./middleware/header"));
-//update
+//update2
 app.use(express.json());
 app.use("/user", user);
 ///////NO VALIDATE SESSION //////
